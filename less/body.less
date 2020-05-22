@@ -12,12 +12,14 @@
         .bodbox{
           .bb();
           display: block;
+
         }
 
         .part2 { 
            .flexit(row);
            flex-wrap: wrap;
            justify-content: space-around;
+
         }
             
         
@@ -42,6 +44,20 @@
             text-align: center;
             margin: 2%;
             padding: 1%;
+
+            @media (max-width: 900px) {
+
+             padding: .5%;
+             width: 32%;
+
+             .us {
+                display: none;
+               } 
+            }
+
+            @media (max-width: 550px){
+                font-size: .8rem;
+            }
         }
 
         ol{

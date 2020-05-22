@@ -5,6 +5,17 @@ header {
     .flexit(row);
     justify-content: space-around;
     align-content: flex-end;
+    padding-top: 1%;
+
+    @media (max-width:800px){
+        .flexit(column);
+        align-items: center;
+        justify-content: center;
+
+        .words {
+            display: none;
+        }
+    }
 
     h1 {
         font-size: 3rem;
