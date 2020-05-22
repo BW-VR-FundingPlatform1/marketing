@@ -1,0 +1,209 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+header {
+  background: #003B46;
+  color: #C4DFE6;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-end;
+}
+header h1 {
+  font-size: 3rem;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40%;
+  padding-top: 3%;
+}
+header nav a {
+  color: #C4DFE6;
+  text-decoration: none;
+}
+.cont {
+  background-color: #66A5AD;
+  width: 100%;
+  height: 100%;
+}
+.cont section {
+  display: flex;
+  justify-content: space-between;
+}
+.cont section .bodbox {
+  width: 80%;
+  height: auto;
+  background: #07575B;
+  color: #C4DFE6;
+  margin: 1%;
+  display: block;
+}
+.cont section .part2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cont section h2 {
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 5px solid #66A5AD;
+}
+.cont section .trimg {
+  border: 2px solid #003B46;
+  width: 70px;
+  height: 90px;
+}
+.cont section .project {
+  border: 1px solid #66A5AD;
+  width: 30%;
+  text-align: center;
+  margin: 2%;
+  padding: 1%;
+}
+.cont section ol h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.cont section ol li {
+  padding: 1%;
+  margin-bottom: 5%;
+}
+.cont section ol .li1 {
+  color: #C4DFE6;
+}
+.cont section ol .li2 {
+  text-align: right;
+  color: #C4DFE6;
+}
+/* colors:
+deep aqua: #003B46
+Ocean: #07575B
+Wave: #66A5AD
+SeaFoam: #C4DFE6
+*/
