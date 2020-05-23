@@ -189,6 +189,13 @@ header nav a {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+@media (max-width: 800px) {
+  .cont section .part2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}
 .cont section h2 {
   font-size: 2rem;
   text-align: center;
@@ -199,7 +206,7 @@ header nav a {
   width: 70px;
   height: 90px;
 }
-@media (max-width: 550px) {
+@media (max-width: 800px) {
   .cont section .trimg {
     width: 60%;
     height: 50%;
@@ -217,7 +224,7 @@ header nav a {
   .cont section .project {
     padding: 0.5%;
     padding-bottom: 1.3%;
-    width: 32%;
+    width: 50%;
     height: auto;
   }
   .cont section .project .us {
