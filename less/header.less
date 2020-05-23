@@ -25,15 +25,27 @@ header {
         justify-content: space-evenly;
         width: 40%;
         padding-top:3%;
-        @media (max-width: 550px){
+
+        @media (max-width: 800px){
             .flexit(column);
             text-align: center;
+        }
+
+        :first-child{
+            font-weight: bold;
         }
 
         a {
          color: @text;
          text-decoration: none;
          margin-bottom: 10%;
+
+         &:hover{
+            color: @light;
+            font-size: 1.2rem;
+            
+         }
+
         }
 
     }

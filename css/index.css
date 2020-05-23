@@ -154,17 +154,24 @@ header nav {
   width: 40%;
   padding-top: 3%;
 }
-@media (max-width: 550px) {
+@media (max-width: 800px) {
   header nav {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
 }
+header nav :first-child {
+  font-weight: bold;
+}
 header nav a {
   color: #C4DFE6;
   text-decoration: none;
   margin-bottom: 10%;
+}
+header nav a:hover {
+  color: #07575B;
+  font-size: 1.2rem;
 }
 .cont {
   background-color: #66A5AD;
