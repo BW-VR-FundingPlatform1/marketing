@@ -123,6 +123,7 @@ table {
   border-spacing: 0;
 }
 header {
+  box-sizing: border-box;
   background: #003B46;
   color: #C4DFE6;
   width: 100%;
@@ -254,4 +255,21 @@ header nav a:hover {
 .cont section ol .li2 {
   text-align: right;
   color: #C4DFE6;
+}
+.cont .people {
+  padding-top: 5%;
+  padding-bottom: 12%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cont .people .pi {
+  text-align: center;
+  margin: 1%;
+  line-height: 200%;
+}
+.cont .people .pi img {
+  height: 70%;
+  width: 50%;
+  border-radius: 25%;
 }
