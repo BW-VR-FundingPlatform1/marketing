@@ -189,17 +189,11 @@ header nav a:hover {
   display: block;
 }
 .cont section .part2 {
+  height: 90%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-@media (max-width: 800px) {
-  .cont section .part2 {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
 }
 .cont section h2 {
   font-size: 2rem;
@@ -257,25 +251,40 @@ header nav a:hover {
   color: #C4DFE6;
 }
 .cont .people {
-  height: 68.5vh;
-  padding-top: 5%;
+  height: 79.5vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .cont .people {
+    flex-wrap: wrap;
+  }
 }
 .cont .people .pi {
+  width: 20%;
   padding: 0.5%;
-  height: 50%;
-  text-align: center;
-  text-justify: center;
-  margin: 1%;
-  line-height: 200%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
   border: 5px solid #003B46;
   border-radius: 25%;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .cont .people .pi {
     border: 2px solid #003B46;
+    align-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0.2%;
+  }
+}
+@media (max-width: 700px) {
+  .cont .people .pi {
+    font-size: 0.8rem;
+    padding: 1%;
   }
 }
 .cont .people .pi img {
@@ -285,13 +294,8 @@ header nav a:hover {
 }
 @media (max-width: 800px) {
   .cont .people .pi img {
-    height: 50%;
-    width: 50%;
-  }
-}
-@media (max-width: 500px) {
-  .cont .people .pi img {
-    height: 30%;
-    width: 40%;
+    height: 60%;
+    width: 60%;
+    font-size: 0.3rem;
   }
 }

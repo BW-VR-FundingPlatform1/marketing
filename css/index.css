@@ -123,6 +123,7 @@ table {
   border-spacing: 0;
 }
 header {
+  box-sizing: border-box;
   background: #003B46;
   color: #C4DFE6;
   width: 100%;
@@ -161,9 +162,6 @@ header nav {
     text-align: center;
   }
 }
-header nav :first-child {
-  font-weight: bold;
-}
 header nav a {
   color: #C4DFE6;
   text-decoration: none;
@@ -191,17 +189,11 @@ header nav a:hover {
   display: block;
 }
 .cont section .part2 {
+  height: 90%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-@media (max-width: 800px) {
-  .cont section .part2 {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
 }
 .cont section h2 {
   font-size: 2rem;
@@ -257,6 +249,45 @@ header nav a:hover {
 .cont section ol .li2 {
   text-align: right;
   color: #C4DFE6;
+}
+.cont .people {
+  height: 68.5vh;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cont .people .pi {
+  padding: 0.5%;
+  height: 50%;
+  text-align: center;
+  text-justify: center;
+  margin: 1%;
+  line-height: 200%;
+  border: 5px solid #003B46;
+  border-radius: 25%;
+}
+@media (max-width: 800px) {
+  .cont .people .pi {
+    border: 2px solid #003B46;
+  }
+}
+.cont .people .pi img {
+  height: 70%;
+  width: 70%;
+  border-radius: 25%;
+}
+@media (max-width: 800px) {
+  .cont .people .pi img {
+    height: 50%;
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .cont .people .pi img {
+    height: 30%;
+    width: 40%;
+  }
 }
 /* colors:
 deep aqua: #003B46
