@@ -91,22 +91,32 @@
 
     }
     .people {
+        height: 68.5vh;
         padding-top: 5%;
-        padding-bottom: 12%;
+        
         .flexit(row);
         justify-content: space-evenly;
 
         .pi {
-
+          padding: .5%;
           text-align: center;
+          text-justify: center;
           margin: 1%;
           line-height: 200%;
-
+          border: 5px solid @dark;
+          border-radius: 25%;
+          @media (max-width: 800px){
+              border: 2px solid @dark;
+          }
 
             img {
             height:70%;
-            width: 50%;
+            width: 70%;
             border-radius: 25%;
+                @media (max-width: 800px){
+                    height: 50%;
+                    width: 50%;
+                }
             }
         }
     }
