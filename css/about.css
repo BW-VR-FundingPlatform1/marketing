@@ -252,6 +252,7 @@ header nav a:hover {
   color: #C4DFE6;
 }
 .cont .people {
+  background-color: #66A5AD;
   height: 79.5vh;
   display: flex;
   flex-direction: row;
