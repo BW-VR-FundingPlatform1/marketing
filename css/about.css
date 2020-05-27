@@ -265,6 +265,7 @@ header nav a:hover {
 }
 .cont .people .pi {
   padding: 0.5%;
+  height: 50%;
   text-align: center;
   text-justify: center;
   margin: 1%;
@@ -286,5 +287,11 @@ header nav a:hover {
   .cont .people .pi img {
     height: 50%;
     width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .cont .people .pi img {
+    height: 30%;
+    width: 40%;
   }
 }
