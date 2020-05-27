@@ -177,11 +177,12 @@ header nav a:hover {
   height: 100%;
 }
 .cont section {
+  background-image: url(https://cdn.pixabay.com/photo/2017/04/14/11/29/virtual-reality-2229924_1280.jpg);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .cont section .bodbox {
-  width: 80%;
+  width: 40%;
   height: auto;
   background: #07575B;
   color: #C4DFE6;
