@@ -1,0 +1,49 @@
+header {
+    box-sizing: border-box;
+    .bgc(@dark);
+    width:100%;
+    height: auto;
+    .flexit(row);
+    justify-content: space-around;
+    align-content: flex-end;
+    padding-top: 1%;
+
+    @media (max-width:800px){
+        .flexit(column);
+        align-items: center;
+        justify-content: center;
+
+        .words {
+            display: none;
+        }
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+    nav {
+        .flexit(row);
+        justify-content: space-evenly;
+        width: 40%;
+        padding-top:3%;
+
+        @media (max-width: 800px){
+            .flexit(column);
+            text-align: center;
+        }
+
+        a {
+         color: @text;
+         text-decoration: none;
+         margin-bottom: 10%;
+
+         &:hover{
+            color: @light;
+            font-size: 1.2rem;
+            
+         }
+
+        }
+
+    }
+}
