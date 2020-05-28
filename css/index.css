@@ -175,6 +175,11 @@ header nav .active {
   color: #07575B;
   text-decoration: underline;
 }
+@media (max-width: 500px) {
+  header nav .active {
+    display: none;
+  }
+}
 html {
   background-color: #66A5AD;
 }
@@ -243,23 +248,24 @@ html {
 }
 @media (max-width: 550px) {
   .cont .info .project {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 .cont .info ol h3 {
   font-size: 3rem;
   font-weight: bold;
 }
+@media (max-width: 800px) {
+  .cont .info ol h3 {
+    font-size: 2rem;
+  }
+}
 .cont .info ol li {
   padding: 1%;
   margin-bottom: 5%;
 }
-.cont .info ol .li1 {
-  color: #C4DFE6;
-}
 .cont .info ol .li2 {
   text-align: right;
-  color: #C4DFE6;
 }
 .cont .people {
   background-color: #66A5AD;
@@ -293,8 +299,11 @@ html {
     padding: 0.2%;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .cont .people .pi {
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 0.8rem;
     padding: 1%;
   }
