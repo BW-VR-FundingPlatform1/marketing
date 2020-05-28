@@ -153,7 +153,7 @@ header nav {
   flex-direction: row;
   justify-content: space-evenly;
   width: 40%;
-  padding-top: 3%;
+  padding-top: 2%;
 }
 @media (max-width: 800px) {
   header nav {
@@ -165,11 +165,17 @@ header nav {
 header nav a {
   color: #C4DFE6;
   text-decoration: none;
-  margin-bottom: 10%;
 }
 header nav a:hover {
   color: #07575B;
   font-size: 1.2rem;
+}
+header nav .active {
+  color: #07575B;
+  text-decoration: underline;
+}
+html {
+  background-color: #66A5AD;
 }
 .cont {
   background-color: c #66A5AD;

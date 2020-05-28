@@ -25,7 +25,7 @@ header {
         .flexit(row);
         justify-content: space-evenly;
         width: 40%;
-        padding-top:3%;
+        padding-top:2%;
 
         @media (max-width: 800px){
             .flexit(column);
@@ -35,7 +35,7 @@ header {
         a {
          color: @text;
          text-decoration: none;
-         margin-bottom: 10%;
+         
 
          &:hover{
             color: @light;
@@ -43,6 +43,11 @@ header {
             
          }
 
+        }
+
+        .active {
+            color: @light;
+            text-decoration: underline;
         }
 
     }
